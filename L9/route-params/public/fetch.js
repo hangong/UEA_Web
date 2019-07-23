@@ -6,10 +6,10 @@ function onResponse(response) {
   return response.text();
 }
 
-fetch('/hello/Victoria')
+fetch('/hello/UEA')
   .then(onResponse)
   .then(onTextReady);
 
-fetch('/flights/SFO-JFK')
+fetch('/flights/NWI-AMS')
   .then(onResponse)
   .then(onTextReady);

@@ -6,10 +6,10 @@ function onResponse(response) {
   return response.text();
 }
 
-fetch('/hello?name=Victoria')
+fetch('/hello?name=UEA')
   .then(onResponse)
   .then(onTextReady);
 
-fetch('/hello?name=Victoria', { method: 'POST'} )
+fetch('/hello?name=UEA', { method: 'POST'} )
   .then(onResponse)
   .then(onTextReady);
